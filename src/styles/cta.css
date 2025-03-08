@@ -1,0 +1,106 @@
+#cta{
+    width: 100%;
+    min-height: 100vh;
+    background-image:url('/src/images/banner1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+   
+}
+
+#cta_logo{
+    width:150px;
+    height:100px;
+    margin-bottom: 150px;
+    margin-top:30px;
+}
+
+#cta_line{
+    width: 100%;
+   height:1.5px;
+   background-color: var(--color-neutral-0);
+
+}
+
+#cta_high {
+    color: var(--color-neutral-0);
+    font-size: 2rem;
+    margin-left:8%;
+    
+   
+}
+
+#cta_high span{
+    font-weight: 700;
+    font-size: 5rem;
+    letter-spacing: 2px;
+}
+
+#cta_low{
+    color: var(--color-neutral-0);
+    font-size: 1.3rem;
+    display: flex;
+    text-align: end;
+    width: 90%;
+    justify-content: flex-end;
+    align-items: center;
+    gap:58px;
+    margin-rigth: 8%;
+    margin-bottom:30px;
+    
+
+    
+   
+}
+
+#cta_btn{
+    background-color: var(--color-primary-2);
+    color: var(--color-neutral-2);
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 145px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px){
+
+
+    #cta_logo{
+        width:120px;
+        height:100px;
+        margin-bottom: 70px;
+    }
+
+    #cta_high{
+        font-size: 1.5rem;
+        margin-left:8%;
+    
+       
+    
+    }
+    
+    #cta_high span{
+        font-size: 3.5rem;
+       
+       
+    }
+
+    
+    
+
+    
+   
+
+
+}
+
+
+
