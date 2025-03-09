@@ -49,7 +49,7 @@
     width: 90%;
     justify-content: flex-end;
     align-items: center;
-    gap:58px;
+    gap:50px;
     margin-right: 8%;
     margin-bottom:30px;
     
@@ -68,6 +68,7 @@
     height: 40px;
     width: 145px;
     cursor: pointer;
+    z-index: 2;
 }
 
 @media screen and (max-width:900px){
@@ -92,6 +93,16 @@
        
        
     }
+
+    
+#cta_low p{
+    font-size: 1rem;
+
+}
+
+#cta_low{
+    margin: 0;
+}
 
     
     
