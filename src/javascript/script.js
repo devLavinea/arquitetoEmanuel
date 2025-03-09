@@ -25,7 +25,7 @@ var swiper1 = new Swiper(".mySwiper1", {
       spaceBetween: 15,
     },
     // when window width is >= 640px
-    900: {
+    1100: {
       slidesPerView: 4,
       spaceBetween: 15,
     },
@@ -121,10 +121,37 @@ ScrollReveal().reveal('#cta_secondary_text p', {
   distance: '100%'
 });
 
+ScrollReveal().reveal('#content_projects_text h2', {
+  origin: 'right',
+  duration: 3000,
+  distance: '20%'
+});
+
+ScrollReveal().reveal('#page_services_text_1', {
+  origin: 'right',
+  duration: 2000,
+  distance: '50%'
+});
+
+ScrollReveal().reveal('#page_content_portfolio h2', {
+  origin: 'left',
+  duration: 3000,
+  distance: '20%'
+});
+
+ScrollReveal().reveal('.page-portfolio-slides', {
+  origin: 'right',
+  duration: 3000,
+  distance: '20%'
+});
+
 
 
 
 });
+
+
+
 
 
 
@@ -132,5 +159,6 @@ ScrollReveal().reveal('#cta_secondary_text p', {
 document.getElementById('voltarBtn').addEventListener('click', function() {
   window.history.back(); // Volta à página anterior
 });
+
 
 

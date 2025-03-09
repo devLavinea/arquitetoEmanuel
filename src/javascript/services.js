@@ -37,19 +37,10 @@ if(caminho === "?projeto=services_3"){
   }
 
 
-  // Inicialização da biblioteca ScrollReveal e configuração das animações
-document.addEventListener('DOMContentLoaded', function () {
-  ScrollReveal().reveal('#page_services_text_1', {
-    origin: 'right',
-    duration: 2000,
-    distance: '50%'
-  });
-
-  ScrollReveal().reveal('#page_content_services', {
-    origin: 'bottom',
-    duration: 2000,
-    distance: '100%'
-  });
 
 
+//botão de fechar
+document.getElementById('voltarBtn').addEventListener('click', function() {
+  window.history.back(); // Volta à página anterior
 });
+

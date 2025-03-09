@@ -91,7 +91,7 @@ body{
 
 .line-secondary{
     height:100vh;
-    width:2px;
+    width:1.7px;
     background: var(--color-neutral-2);
     margin:0px 5px;
     
@@ -151,7 +151,7 @@ body{
   }
 
   .btn-default{
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 7px 24px;
     
 }

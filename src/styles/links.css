@@ -32,6 +32,11 @@
     
 }
 
+.links-list-items a{
+    text-decoration: none;
+    color: var(--color-neutral-2);
+}
+
 .links-list-items i{
     font-size:1.6rem;
 }

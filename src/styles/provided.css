@@ -82,10 +82,14 @@
 
     #provided_list{
         margin-top:95vh;
-        margin-left:60px;
+        margin-left:35px;
         position:absolute;
         
     }
+    
+#provided_list{
+    width: 90%;
+}
 
   
 
