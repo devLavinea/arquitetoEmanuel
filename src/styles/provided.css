@@ -45,6 +45,7 @@
 
 #provided_text p{
     color: var(--color-neutral-1);
+    width: 70%;
     
 }
 
@@ -64,6 +65,10 @@
     
 }
 
+.provided-list-item span{
+    margin-left: 12%;
+}
+
 @media screen and (max-width:900px){
     #provided{
         flex-direction:column;
@@ -79,18 +84,23 @@
     #provided_text{
         padding-left:0;
         font-size: 1.3rem;
+    
     }
 
     #provided_list{
         margin-top:95vh;
         margin-left:35px;
         position:absolute;
+        width: 90%;
         
     }
+    #provided_text h2{ 
+        width: 100%;
+    }
+
     
-#provided_list{
-    width: 90%;
-}
+    
+ 
 
   
 

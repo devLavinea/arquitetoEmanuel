@@ -24,12 +24,15 @@
     flex-direction:row;
     justify-content:space-between;
     align-items:center;
-    font-size:1.2rem;
     padding:0 5%;
     cursor:pointer;
     font-weight:500;
     
     
+}
+
+.links-list-items li{
+    font-size:1.2rem;
 }
 
 .links-list-items a{
@@ -38,7 +41,11 @@
 }
 
 .links-list-items i{
-    font-size:1.6rem;
+    font-size:1.8rem;
+    width: 10%;
+    justify-content: end;
+    display: flex;
+  
 }
 
 
@@ -58,5 +65,15 @@
     .links-list-items{
 
         height:20%;
+    }
+
+    .links-list-items li{
+        font-size:1rem;
+    }
+
+    .links-list-items i{
+        font-size:1.6rem;
+       
+      
     }
 }
