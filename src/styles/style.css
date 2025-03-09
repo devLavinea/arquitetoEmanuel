@@ -37,6 +37,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 html{
@@ -48,6 +49,7 @@ main{
 }
 
 body{
+    overflow-x: hidden;
     background-color: var(--color-primary-1);
     font-family: 'Poppins', sans-serif;
 }

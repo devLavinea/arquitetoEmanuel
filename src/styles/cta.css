@@ -50,7 +50,7 @@
     justify-content: flex-end;
     align-items: center;
     gap:58px;
-    margin-rigth: 8%;
+    margin-right: 8%;
     margin-bottom:30px;
     
 
@@ -80,15 +80,15 @@
     }
 
     #cta_high{
-        font-size: 1.5rem;
-        margin-left:8%;
+        font-size: 1.4rem;
+        margin-left:7%;
     
        
     
     }
     
     #cta_high span{
-        font-size: 3.5rem;
+        font-size: 3.3rem;
        
        
     }
