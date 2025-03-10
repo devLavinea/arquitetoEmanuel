@@ -88,7 +88,7 @@
 
   #cta_low p {
     font-size: 1rem;
-    width: 75%;
+    width: 65%;
   }
 
   #cta_low {
@@ -98,7 +98,17 @@
     width: 100%;
   }
 
+
+}
+
+@media screen and (max-width: 480px) {
   #cta {
-    min-height: 85vh;
+    max-height: 90vh;
   }
+
+  #cta_low p {
+    font-size: 1rem;
+    width: 100%;
+  }
+
 }
