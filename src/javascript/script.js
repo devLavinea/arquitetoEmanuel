@@ -1,5 +1,9 @@
+
+
+
 var swiper1 = new Swiper(".mySwiper1", {
-  
+  observer:true,
+  observeParents:true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -33,6 +37,8 @@ var swiper1 = new Swiper(".mySwiper1", {
 });
 
 var swiper2 = new Swiper(".mySwiper2", {
+  observer:true,
+  observeParents:true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -62,6 +68,8 @@ var swiper2 = new Swiper(".mySwiper2", {
 });
 
   var swiper3 = new Swiper(".mySwiper3", {
+    observer:true,
+    observeParents:true,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -154,11 +162,6 @@ ScrollReveal().reveal('.page-portfolio-slides', {
 
 
 
-
-//botão de fechar
-document.getElementById('voltarBtn').addEventListener('click', function() {
-  window.history.back(); // Volta à página anterior
-});
 
 
 
