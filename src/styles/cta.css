@@ -64,17 +64,13 @@
   height: 40px;
   width: 145px;
   cursor: pointer;
-  z-index: 2;
-}
-#cta_low a {
-  width: 100%;
 }
 
 @media screen and (max-width: 900px) {
   #cta_logo {
     width: 120px;
     height: 100px;
-    margin-bottom: 65%px;
+    margin-bottom: 50%;
   }
 
   #cta_high {
@@ -88,11 +84,15 @@
 
   #cta_low p {
     font-size: 1rem;
-    width: 70%;
+    width: 150px;
+    margin: 0 3%;
   }
 
   #cta_low {
     margin: 0;
     padding: 0;
+    gap: 0px;
+    width: 100%;
+    justify-content: end;
   }
 }
