@@ -91,12 +91,8 @@
   #cta_low {
     margin: 0;
     padding: 0;
-    gap: 0px;
+    gap: 15px;
     width: 100%;
     justify-content: end;
-  }
-
-  #cta_btn {
-    margin-right: 10px;
   }
 }
