@@ -64,13 +64,9 @@
   height: 40px;
   width: 145px;
   cursor: pointer;
-  z-index: 2;
 }
 
 @media screen and (max-width: 900px) {
-  #cta {
-    min-height: 80vh;
-  }
   #cta_logo {
     width: 120px;
     height: 100px;
@@ -95,8 +91,12 @@
   #cta_low {
     margin: 0;
     padding: 0;
-    gap: 30px;
+    gap: 0px;
     width: 100%;
     justify-content: end;
+  }
+
+  #cta_btn {
+    margin-right: 10px;
   }
 }
