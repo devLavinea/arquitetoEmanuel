@@ -69,7 +69,7 @@
 
 @media screen and (max-width: 900px) {
   #cta {
-    max-height: 50vh;
+    min-height: 80vh;
   }
   #cta_logo {
     width: 120px;
