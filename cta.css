@@ -95,4 +95,8 @@
     margin: 0;
     padding: 0;
   }
+
+  #cta {
+    height: 90%;
+  }
 }
