@@ -99,6 +99,6 @@
   }
 
   #cta {
-    height: 90vh;
+    min-height: 90vh;
   }
 }
